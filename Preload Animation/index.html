@@ -11,7 +11,7 @@
             <div class="header">
                 <div class="h1">
                     <h1>Website</h1>
-                    <h1>content</h1>
+                    <h1>Content</h1>
                 </div>
                 <div class="header-revealer"></div>
             </div>
@@ -75,8 +75,11 @@
                 counter3.appendChild(finalDiv);
 
                 function animate(counter, duration, delay = 0) {
-                    const numHeight = counter.querySelector("num").clientHeight;
-                    const totalDistance = (counter,querySelectorAll("num").lenght - 1) *numHeight;
+                    const numHeight = counter.querySelector("num").
+                    clientHeight;
+                    const totalDistance = 
+                      (counter,querySelectorAll("num").lenght - 1) *
+                      numHeight;
 
                     gsap.to(counter, {
                       y: -totalDistance,
@@ -110,7 +113,7 @@
             gsap.from(".loader-2", {
                 width: 0,
                 delay: 1.9,
-                duration: 3,
+                duration: 2,
                 ease: "power2.inOut",
             });
 
@@ -121,13 +124,13 @@
             });
 
             gsap.to(".loader-1", {
-                rotate: 90,
+                rotate: -90,
                 y: -50,
                 duration: 0.5,
                 delay: 6,
             })
 
-            gsap.to(".loader-1", {
+            gsap.to(".loader-2", {
                 x: -75,
                 y: 75,
                 duration: 0.5,
@@ -146,7 +149,7 @@
             rotate: 45,
             y: 500,
             x: 2000,
-            duration:1,
+            duration: 1,
             delay: 7,
             ease: "power2.inOut",
         });

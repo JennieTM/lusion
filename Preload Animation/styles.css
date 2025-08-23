@@ -70,7 +70,7 @@ body {
 
 .loader-2 {
     position: relative;
-    width: 100ppx;
+    width: 100px;
     background: #fff;
 }
 
@@ -124,7 +124,7 @@ h1 {
     top: 0;
     left: 0;
     width: 105%;
-    height: 100%;
+    height: 110%;
     background: #fff;
     top: 80px;
 }
